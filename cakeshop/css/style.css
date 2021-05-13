@@ -1,0 +1,85 @@
+/* common style */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 960px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 15px;
+  color: white;
+  background-color: #DAA520;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+header {
+  margin: 0.5rem 0;
+}
+
+.color-line {
+  height: .5rem;
+  background-color: #DAA520;
+}
+
+/* main */
+main {
+  height: 500px;
+}
+
+/* nav */
+.nav-logo {
+  width: 200px;
+  height: 450px;
+  margin: 20px 10px 20px 20px;
+  color: #DAA520;
+  float: left;
+}
+
+.global-nav li {
+  margin: 1.5rem 0;
+}
+
+/* center */
+.main-visual {
+  width: 480px;
+  height: 450px;
+  margin: 20px 10px;
+  float: left;
+}
+
+.news-area li {
+  margin: 0.5rem 0;
+  font-size: 0.8rem;
+  border-bottom: dotted 1px;
+  margin-top: 25px;
+}
+
+/* spot light */
+.spot-light {
+  width: 200px;
+  height: 450px;
+  margin: 20px 10px;
+  float: right;
+}
+
+.spot-light li:first-child {
+  margin-bottom: 1rem;
+}
+
+/* footer */
+footer {
+  height: 200px;
+  color: white;
+  text-align: center;
+  background-color: #DAA520;
+}
